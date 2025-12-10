@@ -1,0 +1,5 @@
+validate-naming:
+  script:
+    - echo "TODO: [A-Z]+-\\d+"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push"'
